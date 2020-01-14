@@ -1,0 +1,22 @@
+.main{
+  background: gray;
+  width: 50%;
+  height: 350px;
+  margin-left: 25%;
+  margin-top: ;
+  color: white;
+
+}
+
+.contents{
+  font-size: 20px;
+  color: white;
+}
+
+table, td{
+  border: 1px solid #000000;
+}
+
+.footer{
+  width: 100%;
+}
