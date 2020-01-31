@@ -4,7 +4,7 @@ print("hello !!!")
 string = "&& ($post_id != \"164017\" || $post_pass != \"164017\")"
 print(string)
 
-year = 15
+year = 13
 gakka = 4
 num = 200
 for i in range(1, num+1):

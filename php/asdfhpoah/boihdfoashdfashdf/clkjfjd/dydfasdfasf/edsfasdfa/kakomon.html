@@ -1,7 +1,3 @@
-<?php
-header('location:index.php');
-?>
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -11,7 +7,7 @@ header('location:index.php');
   </head>
   <body>
     <div class="main">
-      Y 研究室の過ごし方
+      s 大学での過ごし方
       <p>たまに更新します</p>
       <ol class="contents">
         <li><a href="./data/robot_gairon.html">ロボット概論</a></li>
@@ -26,7 +22,9 @@ header('location:index.php');
       <div class="footer">
         <a href="../login_success.html">戻る</a>
         <a href="../login_success.html">ホーム</a>
-        <a href="http://qq856533.php.xdomain.jp/">ログアウト</a>
+        <form action="logout.php" method="POST">
+            <input type="submit" name="logout" value="ログアウト">
+         </form>
       </div>
     </div>
   </body>

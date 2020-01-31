@@ -15,6 +15,7 @@
   // セッションの登録データを削除
   // print "ログアウト処理完了";
   // header('location:index.php');
+  // session_destroy();
   ?>
   </head>
   <p>ログアウトしました</p>
