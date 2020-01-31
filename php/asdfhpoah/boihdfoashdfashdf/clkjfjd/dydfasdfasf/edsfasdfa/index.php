@@ -7,7 +7,7 @@
   <body>
     <div class="login">
 
-      <form action="./asdfhpoah/boihdfoashdfashdf/clkjfjd/dydfasdfasf/edsfasdfa/session1.php" method="POST">
+      <form action="session1.php" method="POST">
           <input type="text" name="id" placeholder="ID"><br>
           <input type="password" name="password" placeholder="Password"><br>
 

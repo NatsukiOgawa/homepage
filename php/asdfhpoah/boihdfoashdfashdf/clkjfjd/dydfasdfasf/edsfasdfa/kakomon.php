@@ -1,3 +1,7 @@
+<?php
+header('location:index.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -13,15 +17,16 @@
         <li><a href="./data/robot_gairon.html">ロボット概論</a></li>
         <li><a href="./data/seigyo_kougaku_2.html">制御工学2</a></li>
         <li><a href="./data/keisanki_enyou.html">計算機援用設計</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+        <li><a href="./data/energy_henkan.html">エネルギー変換工学</a></li>
       </ol>
       <br>
       <br>
       <br>
       <br>
       <div class="footer">
+        <a href="../login_success.html">戻る</a>
+        <a href="../login_success.html">ホーム</a>
+        <a href="http://qq856533.php.xdomain.jp/">ログアウト</a>
       </div>
     </div>
   </body>
