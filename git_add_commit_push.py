@@ -16,11 +16,12 @@ class file_name_dates_class():
         file_name += id
         # print(file_name)
         return file_name, no_mili
+
 if __name__ == '__main__':
 
     print("You really wanna run this program ? (yes / no)")
     answer = input()
-    if answer == "yes":            
+    if ((answer == "yes") or (answer == "YES") or (answer == "Yes") or (answer == "y") or (answer == "Y")):
         aaa = file_name_dates_class()
         aaa_aaa = aaa.file_name_dates()
         os.system('git add *')
